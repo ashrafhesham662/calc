@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    
+    .big-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #fefefe;
+        font-family: "Cairo", sans-serif;
+    
+    }
+
+    & .container{
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgb(105, 105, 105);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    & .buttons{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 5px;
+    }
+
+    & button{
+        width: 60px;
+        height: 60px;
+        border: none;
+        background-color: #dcdedc;
+        font-size: 20px;
+        font-family: "Oxanium", sans-serif;
+
+    }
+
+    & button:hover{
+        background-color: #cbcccb;
+    }
+
+    
+
+    & .input-screen{
+        background-color: #eeeeee;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        font-size: 23px;
+        outline: none;
+        font-family: "Oxanium", sans-serif;
+
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Oxanium", sans-serif;
+        margin-left: 20px;
+        width: 500px;
+        text-align: center;
+
+    }
+    & .color {
+        color: red;
+        padding-inline: 10px;
+        font-weight: 400;
+        
+    }
+
+}
